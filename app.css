@@ -1,0 +1,51 @@
+
+  #map, .location, .time-block, .people {
+    border: 1px solid grey;
+    margin: 5px;
+    float: left;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .app{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+ .bold{
+   font-weight: bold;
+ }
+  #map{
+    width: 60%;
+    height: 60%;
+    padding: 3px;
+  }
+  .location{
+    width: 60%;
+    padding: 3px;
+  }
+  .time-block{
+    width: 35%;
+    padding: 3px;
+  }
+  .people{
+    width: 35%;
+    
+  }
+  .card{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2%;
+    display: flex;
+  }
+  .people-list {
+    border-bottom: 1px solid grey;
+    padding: 3%;
+    height: 85%;
+  }
+  .avatar, .name{
+    padding: 4%
+  }
